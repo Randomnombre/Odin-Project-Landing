@@ -64,7 +64,7 @@ h1 {
 
 h3 {
     font-size: 18px;
-    color: #F9FAF8;
+    color: #e5e7eb;
     width: 450px;
 }
 
@@ -87,7 +87,7 @@ h3 {
 
 button {
     background-color: #3882f6;
-    color: antiquewhite;
+    color: #F9FAF8;
     width: 115px;
     height: 35px;
     padding: 6px 9px;
@@ -159,8 +159,38 @@ p {
     align-self: flex-end;
 }
 
+.call-to-action {
+    background-color: #3882f6;
+    margin: 80px 100px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.cta-texts {
+    flex-direction: column;
+    flex: 1;
+    padding: 50px 200px;
+}
+
+h2 {
+    color: #F9FAF8;
+}
+.sign-up {
+    border-style: solid;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+}
 
 /* Footer section */
 footer {
+    display: flex;
     background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 0;
 }
